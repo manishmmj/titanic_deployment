@@ -9,7 +9,7 @@ model = pickle.load(file)
 file.close()
 
 # Load dataset for options (if needed)
-data = pd.read_csv("titanic_data.csv")  # Replace with the Titanic dataset used for training
+data = pd.read_csv("titanic_train.csv")  # Replace with the Titanic dataset used for training
 
 st.title("Titanic Survival Predictor")
 
